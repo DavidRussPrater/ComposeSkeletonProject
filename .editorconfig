@@ -1,0 +1,13 @@
+root = true
+
+[*.{kt,kts}]
+ij_kotlin_allow_trailing_comma = false
+ij_kotlin_allow_trailing_comma_on_call_site = false
+
+ktlint_function_naming_ignore_when_annotated_with=Composable
+ktlint_standard_annotation = disabled
+
+# Code formatting rulesets and guidelines
+#
+# https://mrmans0n.github.io/compose-rules/
+# https://android.googlesource.com/platform/frameworks/support/+/androidx-main/compose/docs/compose-api-guidelines.md#elements-accept-and-respect-a-modifier-parameter
